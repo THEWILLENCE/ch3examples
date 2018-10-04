@@ -20,9 +20,9 @@ public class Operators {
 		System.out.println("enter a value that will fit in a byte -128 - 127");
 		byte byteValue = input.nextByte();
 		*/
-		System.out.println("enter a value that willfit in a double");
+		System.out.println("enter a value that will fit in a double");
 		double doubleValue = input.nextDouble();
-		System.out.println("enter a value that willfit in an int");
+		System.out.println("enter a value that will fit in an int");
 		int intValue = input.nextInt();
 		/*
 		byte addAByte = (byte) (byteValue + byteValue);

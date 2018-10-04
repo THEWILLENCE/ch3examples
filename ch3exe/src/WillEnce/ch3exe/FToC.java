@@ -5,12 +5,12 @@ public class FToC {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		out.println("enter a tempureture in farenheit");
+		out.println("enter a tempureture in celsius");
 		double farenheit;
 		double celsius;
-		farenheit = input.nextDouble();
-		celsius = (farenheit - 32)/1.8;  
-		out.println(celsius);
+		celsius = input.nextDouble();
+		farenheit = (celsius * 9)/5 + 32;
+		out.println(farenheit);
 		
 	}
 
